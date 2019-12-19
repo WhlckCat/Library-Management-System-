@@ -10,7 +10,9 @@
             "args": [
                 "-g",
                 "${file}",
-                "${fileDirname}\\LinkList.c",
+                "${fileDirname}\\LinkList\\LinkList.c",
+                "${fileDirname}\\function\\function.c",
+                "${fileDirname}\\FileManagement\\FileManagement.c",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
